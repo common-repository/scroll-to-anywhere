@@ -1,0 +1,39 @@
+
+.scroll-to-top,
+.scroll-to-bottom{
+	padding:2px;
+	position:fixed;
+	width:82px;
+	height:32px;
+	opacity:0.8;
+	cursor: pointer;
+	z-index: 9999;
+}
+.scroll-to-bottom{
+	bottom:20px;
+	right:30px;
+	}
+@media screen and (max-width:500px)
+{	
+		.scroll-to-top,
+		.scroll-to-bottom{
+			display: none;
+		}
+
+}
+
+		#plugin-title {
+			width:772px;
+			height:250px;
+			background-image: url(http://www.pakistansol.com/wp-content/uploads/2015/08/scroll_to_anywhere.png);
+			background-size:772px 250px;
+		}
+		@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+			only screen and (-o-min-device-pixel-ratio: 15/10),
+			only screen and (min-resolution: 144dpi),
+			only screen and (min-resolution: 1.5dppx)
+		{
+			#plugin-title {
+				background-image: url(http://www.pakistansol.com/wp-content/uploads/2015/08/scroll_to_anywhere.png);
+			}
+		}
